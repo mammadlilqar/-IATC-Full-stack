@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+           margin-left: 500px;
+            background-color: white;
+            width: 500px;
+            padding: 35px;
+        }
+        .a{
+         margin-left: 400px;
+        }
+    </style>
+</head>
+
+<body style="background-color: aqua;">
+
+    <main>
+        <table >
+            <caption>Survey Form</caption>
+            <form >
+            <tbody>
+                <tr>
+                    <td class="a">*Name</td>
+                    <td><input placeholder="Enter your name" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>*Email</td>
+                    <td><input placeholder="Enter your Email" type="email" required></td>
+                </tr>
+                <tr>
+                    <td>*Age</td>
+                    <td><input placeholder="Enter your Email" type="number" required></td>
+                </tr>
+                <tr>
+                    <td>Which option best describes your current role?</td>
+                    <td>
+                        <select name="roles">
+                            <option value="student" selected>Student</option>
+                            <option value="worker">Worker</option>
+                            <option value="unemploymet">unemploymet</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>*How likely is that you would recommend freeCodeCamp to a friend?</td>
+                </tr>
+                <tr >
+                    <td><input name="option" type="radio"><label >Definitely</label>
+                    <input name="option" type="radio"><label>Maybe</label>
+                   <input name="option" type="radio"><label >Not sure</label></td>
+                </tr>
+                    <td>What do you like in FCC</td>
+                    <td>
+                        <select name="Select an option">
+                            <option value="Nothing">Nothing</option>
+                            <option value="Everything">Everything</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="submit">
+                   <input type="reset" value="reset"></td>
+               
+            </tr>
+            </tbody>
+            </form>
+        </table>
+    </main>
+</body>
+
+</html>

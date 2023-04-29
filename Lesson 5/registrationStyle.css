@@ -1,4 +1,16 @@
-.tbody{
-   
-text-align: center;
+.input {
+    width: 200px;
+    height: 25px;
+    margin-left: 45px;
 }
+
+.submit{
+    display: inline-block;
+    margin-left: 10px;
+}
+table{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(227, 224, 224);
+}
+
