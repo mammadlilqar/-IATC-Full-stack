@@ -1,0 +1,256 @@
+.h3 {
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px 0px 0px 30px;
+    vertical-align: 8px;
+
+}
+
+.textInput {
+
+    margin-left: 40px;
+    background-color: rgb(61, 61, 61);
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+    vertical-align: 8px;
+
+}
+
+div {
+    display: inline-block;
+}
+
+.settings {
+    width: 30px;
+    margin-left: 400px;
+    vertical-align: 0px;
+}
+
+.apps {
+    width: 30px;
+    margin-left: 18px;
+
+}
+
+.sign-in {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(28, 67, 175);
+    border-radius: 6px;
+    color: rgb(10, 0, 0);
+    border: 1px solid black;
+    padding: 8px;
+    text-decoration: none;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 19px;
+    margin-right: 8px;
+    padding: 9px 23px;
+    vertical-align: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.images {
+    border: 1px solid gray;
+    margin-left: 165px;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 49px;
+
+}
+
+.img {
+    width: 20px;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+.images2 {
+    border: 1px solid gray;
+    margin-left: 9px;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 49px;
+
+}
+
+.plus {
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.hr {
+    margin-top: 30px;
+    width: 200%;
+    
+}
+.about{
+    color: rgb(162, 160, 160);
+    font-size: 23px;
+    display:inline;
+    margin-left:160px;
+    
+}
+.img2{
+
+    width: 30px;
+    margin-top: 33px;
+    margin-left: 160px;
+    
+}
+.a{
+    color: white;
+    vertical-align: 11px;
+    font-size: 22px;
+    margin-left: 7px;
+}
+.b{
+    color: white;
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: 100%;
+  
+}
+.link{
+    color: rgb(10, 167, 199);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 153px;
+}
+.desc{
+    margin-left: 153px;
+    color: white;
+font-size:15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n{
+    color: white;
+    margin-left: 153px;
+    font-size: 26px;
+}
+.hr2 {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 645px;
+
+}
+.p{
+    color: white;
+    margin-left: 153px;
+    font-size: 19px;
+}
+.hr3{
+    margin-top: 30px;
+        margin-left: 150px;
+        width: 578px;
+        display: inline-block;
+       
+}
+.fed{
+    color: rgb(143, 215, 237);
+    vertical-align: 6px;
+    margin-left: 8px;
+}
+.dev{
+    color: white;
+    margin-left: 222px;
+    font-size: 13px;
+    display: inline;
+}
+.link2 {
+    color: rgb(10, 167, 199);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 220px;
+    
+}
+.lorem{
+    color: white;
+    margin-left:220px ;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.date{
+    color: grey;
+    
+}
+.rs{
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 13px 70px; 
+    margin-left: 150px;
+    background-color: rgb(75, 73, 73);
+   
+    
+    
+}
+.img4{
+    width: 22px;
+        
+        margin-right: 6px;
+      
+}
+.rs2 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 13px 70px;
+    margin-left: 20px;
+    background-color: rgb(75, 73, 73);
+
+
+
+
+}
+.rs3 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 13px 38px;
+    margin-left: 150px;
+    background-color: rgb(75, 73, 73);
+
+
+
+}
+.rs4 {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 13px 65px;
+    margin-left: 20px;
+    background-color: rgb(75, 73, 73);
+
+
+
+}
+.h2{
+    color: white;
+    margin-top: 50px;
+    font-size: 34px;
+    margin-left: 340px;
+}
+.numb{
+    color: rgb(90, 176, 251);
+    font-size: 19px;
+    word-spacing: 5px;
+    margin-left: 346px;
+   
+}
