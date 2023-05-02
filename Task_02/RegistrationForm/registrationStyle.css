@@ -4,13 +4,13 @@
     margin-left: 45px;
 }
 
-.submit{
+.submit {
     display: inline-block;
     margin-left: 10px;
 }
-table{
+
+table {
     border: 1px solid black;
     padding: 15px;
     background-color: rgb(227, 224, 224);
 }
-

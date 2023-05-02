@@ -94,116 +94,134 @@ div {
 .hr {
     margin-top: 30px;
     width: 200%;
-    
+
 }
-.about{
+
+.about {
     color: rgb(162, 160, 160);
     font-size: 23px;
-    display:inline;
-    margin-left:160px;
-    
+    display: inline;
+    margin-left: 160px;
+
 }
-.img2{
+
+.img2 {
 
     width: 30px;
     margin-top: 33px;
     margin-left: 160px;
-    
+
 }
-.a{
+
+.a {
     color: white;
     vertical-align: 11px;
     font-size: 22px;
     margin-left: 7px;
 }
-.b{
+
+.b {
     color: white;
     margin-left: 200px;
     display: inline-block;
     vertical-align: 100%;
-  
+
 }
-.link{
+
+.link {
     color: rgb(10, 167, 199);
     text-decoration: none;
     font-size: 25px;
     margin-left: 153px;
 }
-.desc{
+
+.desc {
     margin-left: 153px;
     color: white;
-font-size:15px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.n{
+
+.n {
     color: white;
     margin-left: 153px;
     font-size: 26px;
 }
+
 .hr2 {
     margin-top: 30px;
     margin-left: 150px;
     width: 645px;
 
 }
-.p{
+
+.p {
     color: white;
     margin-left: 153px;
     font-size: 19px;
 }
-.hr3{
+
+.hr3 {
     margin-top: 30px;
-        margin-left: 150px;
-        width: 578px;
-        display: inline-block;
-       
+    margin-left: 150px;
+    width: 578px;
+    display: inline-block;
+
 }
-.fed{
+
+.fed {
     color: rgb(143, 215, 237);
     vertical-align: 6px;
     margin-left: 8px;
 }
-.dev{
+
+.dev {
     color: white;
     margin-left: 222px;
     font-size: 13px;
     display: inline;
 }
+
 .link2 {
     color: rgb(10, 167, 199);
     text-decoration: none;
     font-size: 25px;
     margin-left: 220px;
-    
+
 }
-.lorem{
+
+.lorem {
     color: white;
-    margin-left:220px ;
+    margin-left: 220px;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.date{
+
+.date {
     color: grey;
-    
+
 }
-.rs{
+
+.rs {
     color: white;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 70px;
-    padding: 13px 70px; 
+    padding: 13px 70px;
     margin-left: 150px;
     background-color: rgb(75, 73, 73);
-   
-    
-    
+
+
+
 }
-.img4{
+
+.img4 {
     width: 22px;
-        
-        margin-right: 6px;
-      
+
+    margin-right: 6px;
+
 }
+
 .rs2 {
     color: white;
     text-decoration: none;
@@ -217,6 +235,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
+
 .rs3 {
     color: white;
     text-decoration: none;
@@ -229,6 +248,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
+
 .rs4 {
     color: white;
     text-decoration: none;
@@ -241,16 +261,18 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
-.h2{
+
+.h2 {
     color: white;
     margin-top: 50px;
     font-size: 34px;
     margin-left: 340px;
 }
-.numb{
+
+.numb {
     color: rgb(90, 176, 251);
     font-size: 19px;
     word-spacing: 5px;
     margin-left: 346px;
-   
+
 }
