@@ -1,0 +1,271 @@
+.first_div {
+    display: inline-flex;
+    width: 700px;
+    height: 500px;
+    border: 1px solid rgb(178, 162, 162);
+    margin: 92px 0px 0px 446px;
+    border-radius: 22px;
+
+
+
+}
+
+.left-side-div {
+    border-radius: 3px;
+    width: 350px;
+    height: 100%;
+    border-radius: 22px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 55px;
+    font-size: 28px;
+    color: wheat;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.circle {
+    height: 172px;
+    width: 172px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-top: 42px;
+    margin-left: 85px;
+    border-radius: 50%;
+
+}
+
+.percent {
+    display: inline-block;
+    margin-left: 48px;
+    margin-top: 36px;
+    font-size: 66px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.of {
+    margin-left: 60px;
+    font-size: 17px;
+    color: rgb(158, 170, 181);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.great {
+    display: inline-block;
+    margin-left: 123px;
+    margin-top: 22px;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.text1 {
+    display: block;
+    margin-left: 42px;
+    font-size: 18px;
+    color: rgb(213, 201, 201);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text2 {
+    display: block;
+    margin-left: 57px;
+    font-size: 18px;
+    color: rgb(213, 201, 201);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text3 {
+    display: block;
+    margin-left: 120px;
+    font-size: 18px;
+    color: rgb(213, 201, 201);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.summary {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reaction {
+    background-color: rgb(255, 236, 240);
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 24px;
+
+}
+
+.memory {
+    background-color: rgb(255, 235, 212);
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 24px;
+
+}
+
+.verbal {
+    background-color: rgb(224, 255, 220);
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+
+.visual {
+    background-color: rgb(223, 225, 255);
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 24px;
+}
+
+.cont_button {
+    display: block;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 44px;
+    background-color: rgb(50, 57, 97);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.txt_reaction {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 4px;
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.txt_memory {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 8px;
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.txt_verbal {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 6px;
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.txt_visual {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 6px;
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.results1 {
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 18px;
+    color: rgb(171, 155, 155);
+    font-weight: 700;
+    margin-top: 15px;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.results2 {
+    display: inline-block;
+    margin-left: 83px;
+    font-size: 18px;
+    color: rgb(171, 155, 155);
+    font-weight: 700;
+    margin-top: 15px;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.results3 {
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 18px;
+    color: rgb(171, 155, 155);
+    font-weight: 700;
+    margin-top: 15px;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.results4 {
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 18px;
+    color: rgb(171, 155, 155);
+    font-weight: 700;
+    margin-top: 15px;
+    vertical-align: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.brain-svg {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 14px;
+
+
+}
+
+.reaction-svg {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.verbal-svg {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.visual-svg {
+    margin-top: 14px;
+    margin-left: 10px;
+}
