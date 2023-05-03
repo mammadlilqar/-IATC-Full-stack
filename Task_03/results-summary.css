@@ -25,7 +25,7 @@
     font-size: 28px;
     color: wheat;
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .circle {
@@ -45,7 +45,7 @@
     font-size: 66px;
     color: white;
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .of {
@@ -53,7 +53,7 @@
     font-size: 17px;
     color: rgb(158, 170, 181);
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .great {
@@ -63,7 +63,7 @@
     font-size: 35px;
     color: white;
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 
@@ -73,7 +73,7 @@
     font-size: 18px;
     color: rgb(213, 201, 201);
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .text2 {
@@ -82,7 +82,7 @@
     font-size: 18px;
     color: rgb(213, 201, 201);
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .text3 {
@@ -91,7 +91,7 @@
     font-size: 18px;
     color: rgb(213, 201, 201);
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .summary {
@@ -100,7 +100,7 @@
     margin-top: 35px;
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .reaction {
@@ -154,7 +154,7 @@
     border-radius: 44px;
     background-color: rgb(50, 57, 97);
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 }
 
@@ -165,7 +165,7 @@
     color: hsl(0, 100%, 67%);
     font-weight: 700;
     vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .txt_memory {
@@ -175,7 +175,7 @@
     color: hsl(39, 100%, 56%);
     font-weight: 700;
     vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 }
 
@@ -186,7 +186,7 @@
     color: hsl(166, 100%, 37%);
     font-weight: 700;
     vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 }
 
@@ -197,18 +197,18 @@
     color: hsl(234, 85%, 45%);
     font-weight: 700;
     vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .results1 {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 73px;
     font-size: 18px;
     color: rgb(171, 155, 155);
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 13px;
     vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .results2 {
@@ -217,9 +217,9 @@
     font-size: 18px;
     color: rgb(171, 155, 155);
     font-weight: 700;
-    margin-top: 15px;
-    vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 13px;
+    vertical-align: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 }
 
@@ -229,9 +229,9 @@
     font-size: 18px;
     color: rgb(171, 155, 155);
     font-weight: 700;
-    margin-top: 15px;
-    vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:13px;
+    vertical-align: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .results4 {
@@ -240,9 +240,9 @@
     font-size: 18px;
     color: rgb(171, 155, 155);
     font-weight: 700;
-    margin-top: 15px;
-    vertical-align: 4px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 13px;
+    vertical-align: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 
 }
