@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(253, 8%, 77%);
+}
+
+.daniel {
+    display: inline-flex;
+    width: 570px;
+    height: 250px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 40px;
+    margin-left: 120px;
+    margin-top: 120px;
+    padding: 35px;
+  
+
+}
+
+section>div>img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.txt {
+
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+    
+    
+}
+
+.txt2 {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    margin-left: 50px;
+
+}
+
+.txt3 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.txt4 {
+    color: rgb(197, 162, 230);
+}
+

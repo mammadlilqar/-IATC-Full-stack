@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 911px;
+    padding-top: 14px;
+}
+
+.logo {
+
+    margin-left: 47.5px;
+    color: #72FDF5;
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+}
+
+header>nav a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.055em;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 64px;
+}
+
+.login {
+
+    margin-left: 654.5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #72FDF5;
+}
+
+.signup {
+    margin-left: 59px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #72FDF5;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 122px;
+    color: white;
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.89);
+    margin-left: 35px;
+}
+
+.text2 {
+    display: inline-block;
+    color: white;
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.89);
+    margin-left: 35px;
+}
+
+.inputs {
+    padding: 12px 20px;
+    width: 530px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    margin-left: 35px;
+    margin-top: 75px;
+    align-items: center;
+    display: inline-block;
+
+}
+
+header div>input {
+    width: 134px;
+    height: 53px;
+    background: #FFFFFF;
+
+
+}
+
+header div>hr {
+    transform: rotate(90deg);
+    width: 41.19px;
+    height: 0px;
+    display: inline-block;
+
+}
+
+header div>button {
+    width: 160px;
+    height: 58px;
+    background: #000000;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.055em;
+    vertical-align: 21px;
+    color: #72FDF5;
+}
+
+.input2 {
+    vertical-align: 18px;
+    border: none;
+
+}
+
+.input1 {
+    vertical-align: 18px;
+    border: none;
+
+}
+
+hr {
+    vertical-align: 23px;
+}
+
+header div>input::placeholder {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: 0.055em;
+    color: #000000;
+    text-align: center;
+
+}
+
+.txt {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #F5F5F5;
+    margin-top: 32px;
+    margin-left: 35px;
+
+
+}
+
+header div div a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 230%;
+    letter-spacing: 0.10em;
+    color: #000000;
+    width: 134px;
+    height: 27px;
+
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 32px;
+    padding: 4px 12px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 24px;
+
+}
+
+.specialities {
+
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+
+
+main {
+    margin: 0px;
+    padding: 0px;
+    height: 4018px;
+
+    background: #EEEDEB;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 307px;
+    background-color: black;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo2 {
+    display: inline-flex;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.035em;
+    color: #72FDF5;
+    text-decoration: none;
+    margin-left: 39px;
+    margin-top: 34px;
+}
+
+.employer {
+
+    font-weight: 700;
+    font-size: 21.0293px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.89);
+
+}
+
+.class {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 220px;
+    margin-top: 42px;
+}
