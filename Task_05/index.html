@@ -5,63 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Djinni.com</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div style="display: inline-block">
-            <a class="logo" href="#">djinni</a>
+    <header class="clearfix">
+        <div class="logo">
+            <a href="#">djinni</a>
         </div>
-        <nav style="display: inline-block;">
-            <a class="companies" href="#">Companies</a>
-            <a class="salaries" href="#">Salaries</a>
-            <a class="fag" href="#">FAG</a>
-            <div style="display: inline-block;">
-                <a class="login" href="#">Log in</a>
-                <a class="signup" href="#">Sign up</a>
-            </div>
+        <nav style="float: left;">
+            <ul>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Salaries</a></li>
+                <li><a href="#">FAG</a></li>
+            </ul>
         </nav>
-        <div style="display: inline-block;">
-            <span class="text">Find your next job</span><br>
-            <span class="text2">and make your </span><br>
-            <span class="text2">goal.</span>
-        </div><br>
-        <div class="inputs" style="display:inline-block;">
-            <input class="input1" type="text" placeholder="Job title">
-            <hr>
-            <input class="input2" type="text" placeholder="Location">
-            <hr>
-            <button>Get started</button>
-        </div><br>
-        <div style="display: inline-block;">
-            <span class="txt">Most wanted</span>
-            <div class="specialities">
-                <a href="#">Graphic Designer</a>
-                <a href="#">UX\UI designer</a>
-                <a href="#">Backend Developer</a><br>
-                <a href="#">Business Analyist</a>
-                <a href="#">Content Writer</a>
-                <a href="#"> Human Resources</a>
-            </div>
+        <div class="auth-actions">
+
+            <a class="signup" href="#">Sign up</a>
+            <a class="login" href="#">Log in</a>
         </div>
     </header>
     <main>
-        <div >
+        <section class="hero">
+            <div class="content">
+                <h1>Find your next job and make your goal.</h1>
+                <form action="#">
+                    <input type="text" placeholder="Job title">
+                    <hr>
+                    <input type="text" placeholder="Location">
+                    <hr>
+                    <button>Get started</button>
+                </form>
 
-        </div>
+
+                <div class="most-wanted">
+                    <span class="specialities">Most Wanted</span><br>
+                    <a class="a1" href="#">Graphic Designer</a>
+                    <a class="a2" href="#">UX\UI Designer</a>
+                    <a class="a3" href="#">Backend Developer</a><br>
+                    <a class="a4" href="#">Business Analyist</a>
+                    <a class="a5" href="#">Content Writer</a>
+                    <a class="a6" href="#">Human Resources</a>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="wrapper">
+                    <img class="img1"
+                        src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjB3b3JrZXJ8ZW58MHx8MHx8&w=1000&q=80"
+                        alt="#">
+                </div>
+
+                <div class="wrapper">
+                    <img class="img2" src="https://www.opticianonline.net/media/nflhfssc/office20worker.jpg" alt="#">
+                </div><br>
+                <div class="wrapper"><img class="img3"
+                        src="https://cdn.shrm.org/image/upload/c_crop%2Ch_705%2Cw_1253%2Cx_0%2Cy_58/c_fit%2Cf_auto%2Cq_auto%2Cw_767/v1/Tools%20and%20Samples/back_to_work_df9pac?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjU4LCJ4MiI6MTI1MywieTIiOjc2NCwidyI6MTI1MywiaCI6NzA1fX0%3D"
+                        alt="#"></div>
+                <div class="wrapper"><img class="img4"
+                        src="https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/POLL/i7tzfmpqvkc9khrbxfdn2a.jpg"
+                        alt="#"></div>
+
+            </div>
+        </section>
     </main>
-    <footer>
-        <a href="#" class="logo2">djinni</a>
-        <div class="class" style="display: inline-flex;" >
-            <a class="employer">Employer</a>
-            <a class="about"><br>About us</a>
-            <a class="careers"><br>Careers</a>
-            <a class="blog"><br>Blog</a>
-            <a class="privacy"><br>Privacy</a>
-        </div>
-    </footer>
+    <footer></footer>
 </body>
 
 </html>

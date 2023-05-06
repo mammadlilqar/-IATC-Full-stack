@@ -7,7 +7,7 @@ body {
     width: 570px;
     height: 250px;
     background-color: hsl(263, 55%, 52%);
-    border-radius: 40px;
+    border-radius: 20px;
     margin-left: 120px;
     margin-top: 120px;
     padding: 35px;
@@ -26,7 +26,7 @@ section>div>img {
 
     display: inline-block;
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: 18px;
     color: white;
     
@@ -37,7 +37,7 @@ section>div>img {
     display: inline;
     color: white;
     font-size: 10px;
-    margin-left: 50px;
+    margin-left: 30px;
 
 }
 
