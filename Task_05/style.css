@@ -244,11 +244,92 @@ header>nav>ul>li>a {
     display: inline-block;
     margin-right: 24px;
 }
+
 .a5 {
     display: inline-block;
     margin-right: 24px;
 }
+
 .a6 {
     display: inline-block;
     margin-right: 24px;
+}
+
+main>section {
+    height: 900px;
+    position: relative;
+    display: block;
+}
+
+main>.main-div {
+    display: inline-block;
+    background-color: white;
+    height: 4018px;
+    width: 100%;
+    background: #EEEDEB;
+}
+
+main>.main-div>div {
+    display: inline-block;
+    position: absolute;
+    width: 366px;
+    height: 246px;
+    background-color: white;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 74px 38px;
+    color: black;
+}
+
+.div1 {
+    left: 99px;
+    top: 900px;
+}
+
+.div2 {
+    left: 576px;
+    top: 900px;
+}
+
+.div3 {
+    left: 1050px;
+    top: 900px;
+}
+
+main>.main-div>div>img {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: rgb(37, 252, 213);
+
+}
+
+.span1 {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 112%;
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+    position: absolute;
+    top: 80px;
+    left: 156px;
+
+}
+
+.span2 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 141%;
+    letter-spacing: -0.035em;
+    color: #000000;  
+    position: absolute;
+    top: 130px;
+    left: 154px;
+
 }
