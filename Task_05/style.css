@@ -255,14 +255,15 @@ header>nav>ul>li>a {
     margin-right: 24px;
 }
 
-main>section {
+main>.hero {
+    background-color: #000000;
     height: 900px;
     position: relative;
     display: block;
 }
 
 main>.main-div {
-    display: inline-block;
+
     background-color: white;
     height: 4018px;
     width: 100%;
@@ -327,9 +328,84 @@ main>.main-div>div>img {
     font-size: 24px;
     line-height: 141%;
     letter-spacing: -0.035em;
-    color: #000000;  
+    color: #000000;
     position: absolute;
     top: 130px;
     left: 154px;
 
+}
+
+.wrapper2>img {
+    width: 415.11px;
+    height: 415.11px;
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+
+
+}
+
+.disk1 {
+    top: 1222px;
+    transform: rotate(22.33deg);
+    left: 67px;
+}
+
+.disk2 {
+    top: 1422px;
+    transform: rotate(22.33deg);
+    left: 117px;
+}
+
+.providing>.photos {
+    display: inline-block;
+
+}
+
+.content {
+    color: #000000;
+    margin-left: 717px;
+    margin-top: 265px;
+}
+
+.content>h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 128%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    display: inline;
+}
+
+.content>small {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.content>div>button {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 300px;
+    height: 68px;
+    background: #000000;
+    border-radius: 100px;
+    color: #72FDF5;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.055em;
+  margin-top: 68px;
+    color: #72FDF5;
+}
+.content>div>img{
+    display: inline-block;
+    margin-left: 85px; 
+    position: absolute;
+    top:1630px;
 }
