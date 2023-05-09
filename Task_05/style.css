@@ -366,7 +366,7 @@ main>.main-div>div>img {
 
 .content {
     color: #000000;
-    margin-left: 717px;
+    margin-left: 737px;
     margin-top: 265px;
 }
 
@@ -400,12 +400,158 @@ main>.main-div>div>img {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.055em;
-  margin-top: 68px;
+    margin-top: 68px;
     color: #72FDF5;
 }
-.content>div>img{
+
+.content>div>img {
     display: inline-block;
-    margin-left: 85px; 
+    margin-left: 85px;
     position: absolute;
-    top:1630px;
+    top: 1630px;
+}
+
+.content2 {
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 100px;
+
+}
+
+.content2>h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 128%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    display: inline;
+}
+
+.content2>small {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 144%;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    margin-top: 28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.content2>button {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 300px;
+    height: 68px;
+    background: #000000;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.055em;
+    color: #72FDF5;
+    margin-top: 76px;
+}
+
+.imgages {
+    display: inline-block;
+}
+
+.images>img {
+    width: 120px;
+    height: 240px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 84.0278px;
+    position: relative;
+
+}
+
+.images>img:nth-child(1) {
+
+    bottom: 500px;
+    left: 1010px;
+
+}
+
+.images>img:nth-child(2) {
+
+    bottom: 400px;
+    left: 1050px;
+
+}
+
+.images>img:nth-child(3) {
+
+    bottom: 400px;
+    left: 600px;
+
+}
+
+.images>img:nth-child(4) {
+
+    bottom: 140px;
+    left: 475px;
+
+}
+
+.images>img:nth-child(5) {
+
+    bottom: 140px;
+    left: 690px;
+
+}
+
+.images>img:nth-child(6) {
+
+    bottom: 235px;
+    left: 400px;
+
+}
+
+.images>img:nth-child(7) {
+
+    top: 30px;
+    left: 275px;
+
+}
+
+.works>.text {
+    width: 842px;
+    height: 509px;
+    background: #000000;
+    border-radius: 0px 12px 12px 0px;
+    margin-left: 60.5px;
+    margin-top: 160px;
+    padding: 45px 53px;
+}
+
+.works>.text>h2 {
+    display: inline;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 128%;
+    letter-spacing: 0.065em;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.works>.text>small {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.67);
+    margin-top: 18px;
+}
+.works>.text>img{
+    margin-left: 240px;
+}
+.logo>img{
+    display: inline-block;
+    margin-left: 200px;
+    width: 200px;
+position: relative;
+top: 80px;
 }
