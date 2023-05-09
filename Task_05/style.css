@@ -545,13 +545,239 @@ main>.main-div>div>img {
     color: rgba(255, 255, 255, 0.67);
     margin-top: 18px;
 }
-.works>.text>img{
+
+.works>.text>img {
     margin-left: 240px;
 }
-.logo>img{
+
+.logo>img {
     display: inline-block;
     margin-left: 200px;
     width: 200px;
-position: relative;
-top: 80px;
+    position: relative;
+    top: 50px;
+}
+
+.posts>div {
+    display: inline-block;
+    width: 385px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    position: relative;
+    bottom: 140px;
+}
+
+.ui {
+    vertical-align: -6px;
+    left: 100px;
+    padding: 28px 24px;
+
+}
+
+.analyst {
+    left: 130px;
+    padding: 28px 24px;
+}
+
+.developer {
+    left: 160px;
+    padding: 28px 24px;
+}
+
+.ui>img {
+    width: 40px;
+    height: 40px;
+}
+
+.analyst>img {
+    width: 48.05px;
+    height: 37px;
+}
+
+.developer>img {
+    width: 48.05px;
+    height: 37px;
+}
+
+.ui>h2 {
+    display: inline;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.ui>span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.67);
+
+}
+
+.clock {
+    margin-top: 60px;
+}
+
+.ui>.txt {
+    display: inline-block;
+    vertical-align: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 12px;
+}
+
+.ui>button {
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    width: 124px;
+    height: 52px;
+    background: #000000;
+    border-radius: 77.9412px;
+    font-weight: 500;
+    font-size: 18.7059px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #72FDF5;
+    margin-left: 68px;
+    vertical-align: 15px;
+}
+
+.analyst>h2 {
+    display: inline;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.analyst>span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.67);
+
+}
+
+.analyst>.txt {
+    display: inline-block;
+    vertical-align: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 12px;
+}
+
+.analyst>button {
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    width: 124px;
+    height: 52px;
+    background: #000000;
+    border-radius: 77.9412px;
+    font-weight: 500;
+    font-size: 18.7059px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #72FDF5;
+    margin-left: 58px;
+    vertical-align: 15px;
+}
+
+.analyst>.clock {
+    margin-top: 60px;
+}
+
+
+.developer>h2 {
+    display: inline;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.developer>span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.67);
+
+}
+
+.developer>.txt {
+    display: inline-block;
+    vertical-align: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 12px;
+}
+
+.developer>button {
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    width: 124px;
+    height: 52px;
+    background: #000000;
+    border-radius: 77.9412px;
+    font-weight: 500;
+    font-size: 18.7059px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #72FDF5;
+    margin-left: 58px;
+    vertical-align: 15px;
+}
+
+.developer>.clock {
+    margin-top: 60px;
+}
+
+.content3 {
+    margin: 88px 0px 0px 500px;
+}
+
+.content3>h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 128%;
+    display: inline;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-left: 63px;
+
+}
+
+.content3>span {
+    display: inline;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 137%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
 }
