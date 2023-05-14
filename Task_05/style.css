@@ -781,3 +781,34 @@ main>.main-div>div>img {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
+
+footer>div>.logo {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.035em;
+    color: #72FDF5;
+    margin-top: 34px;
+    margin-left: 39px;
+    vertical-align: 106px;
+}
+
+.employer {
+    display: inline-block;
+    margin-left: 220px;
+    margin-top: 42px;
+
+}
+
+.employer>h2 {
+
+    font-weight: 700;
+    font-size: 21.0293px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.89);
+}
+.employer>span{
+    display: inline-block;
+    margin-top: 17px;
+}

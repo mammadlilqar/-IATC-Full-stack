@@ -1,0 +1,78 @@
+.btn {
+
+    border-radius: 28px;
+    width: 227px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn.ios {
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+
+}
+
+.btn.macos {
+    background: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+
+}
+
+h1 {
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.75px;
+    color: #4C545C;
+}
+
+p {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #9EABB2;
+    display: inline-block;
+    margin: 0;
+}
+
+[class="small"] {
+    font-size: 16px;
+}
+
+[class="medium"] {
+    font-size: 18px;
+}
+
+[class="large"] {
+    font-size: 20px;
+}
+
+h2 {margin: 0;
+    
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.6px;
+
+
+    color: #4C545C;
+}
+h3{
+    display: inline;
+    margin: 0;
+}
