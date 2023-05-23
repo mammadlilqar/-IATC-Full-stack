@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.color-primary {
+  color: rgb(144, 237, 237);
+}
+
+.color-secondary, .display, .display-3, .display-2, .display-1, .text {
+  color: rgb(19, 242, 19);
+}
+
+.color-tertiary {
+  color: rgb(32, 32, 121);
+}
+
+.color-quanternary {
+  color: rgb(252, 40, 40);
+}
+
+.text {
+  @ext;
+}
+
+.display-1 {
+  font-size: 3.4375rem;
+}
+
+.display-2 {
+  font-size: 2.8125rem;
+}
+
+.display-3 {
+  font-size: 2.1875rem;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}/*# sourceMappingURL=global.css.map */

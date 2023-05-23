@@ -1,0 +1,40 @@
+@use 'variables';
+@use 'functions';
+@use 'mixins';
+@import 'placeholders';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@each $color,
+$value in  variables.$colors {
+    .color-#{$color} {
+        color: $value;
+    }
+}
+.text{
+    @extend placeholders.hello-world;
+    @extend .color-secondary;
+
+    
+}
+
+.display{
+    @extend .color-secondary;
+}
+@each $index,
+$size in variables.$display-sizes {
+    .display-#{$index} {
+        @extend .display;
+        font-size:  functions.get-rem($size) ;
+    }
+
+}
+
+.box{
+    @include mixins.flex-start;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
