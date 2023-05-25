@@ -1,3 +1,4 @@
+@import url("./carousel.css");
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +10,8 @@
   font-family: sans-serif;
   transition: 0.2s linear;
 }
-ul{
-    padding-left: 0 !important;
+ul {
+  padding-left: 0 !important;
 }
 header {
   background: url("https://cdn.shopify.com/s/files/1/0618/3518/2257/files/banner.png?v=1665999384")
@@ -24,12 +25,12 @@ header {
   background-size: cover;
   align-items: center;
   z-index: 1;
+  background-color: white;
 }
 .navigation a {
   color: black;
 }
-.search {
-}
+
 .search > img {
   background-color: rgb(238, 238, 238);
   width: 30px;
@@ -108,10 +109,11 @@ ul {
 .icons ul li {
   padding: 2% 1%;
 }
-.navbars ul li ul,.icons ul li ul {
+.navbars ul li ul,
+.icons ul li ul {
   background-color: white;
   position: absolute;
-  
+
   border: 1px solid black;
   background-color: white;
   z-index: 1;
@@ -121,33 +123,29 @@ ul {
 }
 
 .navbars ul li:hover ul,
-.navbars ul li:focus-within ul,.icons ul li:focus-within ul {
+.navbars ul li:focus-within ul,
+.icons ul li:focus-within ul {
   display: block;
 }
-.menu-icon{
-    width:35px;
-    height: 30px;
+
+header .menu-bar {
+  display: none !important;
 }
-header #menu-bar{
-display: none;
-}
-.menu-icon{
-    font-size: 3rem;
-    color: black;
-    border-radius: .5rem;
-     cursor: pointer;
-     border: 1px solid black;
-     display: none;
+.menu-icon {
+  font-size: 3rem;
+  color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid black;
+  display: none !important;
 }
 
 @media (min-width: 991px) {
-   html{
-     scroll-behavior: smooth;
-     scroll-padding-top: 6rem;
-     overflow-x: hidden;
-   }
-   
-
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 907px) {
@@ -161,46 +159,60 @@ display: none;
   .navigation {
     padding: 2% 1%;
   }
+  .reg-dropdawn{
+   
+left: 82% !important;
+  }
 }
 
+@media (max-width: 567px) {
+  
+  .reg-dropdawn{
+   
+left: 72% !important;
+  }
+}
+@media (max-width: 367px) {
+  
+  .reg-dropdawn{
+   
+left: 62% !important;
+  }
+}
 @media (max-width: 780px) {
- .menu-icon{
+  .menu-icon {
     display: block;
- }
- .navbars{
+  }
+  .navbars {
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background-color: palevioletred;
     height: 300px;
-   clip-path: polygon(0 0,100% 0,100% 0, 0 0);
- }
-  .navbars>ul{
+    display: none;
+  }
+  .navbars > ul {
     display: flex;
     flex-direction: column;
-    padding:13px 16px;
+    padding: 13px 16px;
     justify-content: start;
     align-items: start;
-     
   }
-    .navbars ul li a{
-  
+  .navbars ul li a {
     padding: 3px;
-   
   }
-  .cart{
+  .cart {
     display: none;
   }
-  .navbars>ul .parfume{
+  .navbars > ul .parfume {
     display: none;
   }
- 
-  .icons>ul{
+
+  .icons > ul {
     gap: 8px;
   }
- header #menu-bar:checked ~.navbars {
-         clip-path: polygon(0 0,100% 0,100% 100%, 0% 100%)
-
+  header .menu-bar {
+    display: block !important;
   }
 }
