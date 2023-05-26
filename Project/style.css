@@ -159,24 +159,19 @@ header .menu-bar {
   .navigation {
     padding: 2% 1%;
   }
-  .reg-dropdawn{
-   
-left: 82% !important;
+  .reg-dropdawn {
+    left: 82% !important;
   }
 }
 
 @media (max-width: 567px) {
-  
-  .reg-dropdawn{
-   
-left: 72% !important;
+  .reg-dropdawn {
+    left: 72% !important;
   }
 }
 @media (max-width: 367px) {
-  
-  .reg-dropdawn{
-   
-left: 62% !important;
+  .reg-dropdawn {
+    left: 62% !important;
   }
 }
 @media (max-width: 780px) {

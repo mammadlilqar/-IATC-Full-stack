@@ -14,7 +14,7 @@
   padding-top: 25px;
 }
 .data {
-  padding: 2rem 8%;
+  padding: 10% 8%;
 }
 .links .link1 {
   background-color: white;
@@ -41,8 +41,13 @@
   background-color: white;
   color: red;
 }
-.links{
-    padding-top: 15px;
+.links {
+  padding-top: 15px;
+}
+@media (min-width: 1060px) {
+  .data{
+    padding-right: 0 !important;
+  }
 }
 
 @media (min-width: 991px) {
@@ -66,24 +71,23 @@
   }
 }
 
-@media (max-width: 370px) {
-.links{
-display: flex;
-flex-direction: column;
-row-gap: 10px;
+@media (max-width: 384px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 
-align-items: center;
+    align-items: center;
+  }
+  .data {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+  }
 }
 
+.carousel-control-next {
+  align-items: flex-end !important;
 }
-
-.carousel-control-next{
-   
-    align-items: flex-end !important;
-    
-}
-.carousel-control-prev{
-   
-    align-items: flex-end !important;
-     
+.carousel-control-prev {
+  align-items: flex-end !important;
 }
