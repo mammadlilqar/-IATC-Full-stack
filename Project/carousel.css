@@ -14,8 +14,10 @@
   padding-top: 25px;
 }
 .data {
-  padding: 10% 8%;
+  padding: 10% 5% 20% 5%;
+  
 }
+
 .links .link1 {
   background-color: white;
   padding: 10px 30px;
@@ -44,12 +46,23 @@
 .links {
   padding-top: 15px;
 }
-@media (min-width: 1060px) {
-  .data{
-    padding-right: 0 !important;
-  }
+
+ .carousel-control-next {
+  justify-content: flex-end !important;
+
+}
+.carousel-control-prev {
+  justify-content: flex-start !important;
+}
+.carousel-control-next-icon {
+ width: 25px !important;
+ background-color: red;
 }
 
+.carousel-control-prev-icon {
+ width: 25px!important;
+ background-color: red;
+}
 @media (min-width: 991px) {
   html {
     scroll-behavior: smooth;
@@ -63,12 +76,25 @@
     padding-left: 3%;
     padding-right: 3%;
   }
+
+  .carousel-control-next {
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+
+}
+.carousel-control-prev {
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+}
+
 }
 @media (max-width: 810px) {
   .data {
     padding-left: 1%;
     padding-right: 1%;
   }
+
+  
 }
 
 @media (max-width: 384px) {
@@ -83,11 +109,7 @@
     padding-left: 3% !important;
     padding-right: 3% !important;
   }
+
+  
 }
 
-.carousel-control-next {
-  align-items: flex-end !important;
-}
-.carousel-control-prev {
-  align-items: flex-end !important;
-}
