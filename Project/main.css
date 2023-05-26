@@ -1,5 +1,5 @@
 main {
-  padding: 0 5%;
+  padding: 0 3%;
 }
 .top-seller > .box-heading {
   display: flex;
@@ -21,6 +21,9 @@ main {
     color: black;
     font-weight: 700;
   }
+}
+.row {
+  gap: 24px;
 }
 
 .top-seller {
@@ -149,6 +152,41 @@ main {
 .box-heading a:focus-within {
   text-decoration: underline !important;
 }
+.heros {
+  padding: 0 5%;
+  max-width: 100%;
+}
+.p-img{
+    width:100%;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  > .heading > h3 {
+    color: #015e6b;
+    font-size: 32px;
+  }
+  > .txt > p {
+    color: #000000;
+    font-size: 14px;
+  }
+  .p-types  a {
+    color: #d9135a;
+    margin: 0px 5px 0px 0px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #d9135a;
+    border-radius: 16px;
+    font-weight: 700;
+  }
+}
+  .p-types  a:hover{
+  background-color:#d9135a;
+  color: white;
+
+  }
+
+
 
 @media (max-width: 1200px) {
   .item1 {
@@ -159,6 +197,15 @@ main {
   .item2 {
     display: none;
   }
+  .row-cl{
+    flex-direction: column;
+  }
+  .h-res{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !;
+  }
+   
 }
 @media (max-width: 576px) {
   .item3 {
@@ -166,20 +213,20 @@ main {
   }
 }
 @media (max-width: 907px) {
-  main {
+  main,.heros {
     padding-left: 3%;
     padding-right: 3%;
   }
 }
 @media (max-width: 810px) {
-  main {
+  main,.heros {
     padding-left: 1%;
     padding-right: 1%;
   }
 }
 
 @media (max-width: 384px) {
-  main {
+  main,.heros {
     padding-left: 3% !important;
     padding-right: 3% !important;
   }
@@ -198,3 +245,14 @@ main {
     flex-direction: column;
   }
 }
+@media (max-width: 400px) {
+   .p-types{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+    >a{
+        text-align: center;
+    }
+   }
+}
+
