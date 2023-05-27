@@ -1,9 +1,72 @@
 footer > .container {
   padding: 40px 15px;
+  padding-left: 30px;
   max-width: 100%;
+}
+footer{
+    background-color: #f2f2f2;
 }
 .Parfume a{
     color: black; 
   font-size: 2rem;
   font-weight: 600;
 }
+.first-widget div p{
+    font-size: 14px;
+    margin: 30px 0;
+
+}
+.first-widget{
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-links>div>h5{
+    font-size: 15px;
+    margin: 0 0 20px;
+    color: black;
+}
+.links2{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a{
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+.footer-widget>div>h5{
+margin: 0 0 20px;
+font-size: 15px;
+  color: black;
+}
+.third-widget{
+    display: flex;
+    flex-direction: column;
+
+    >a{
+        color: black;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+.footer-sub-column>div>h4{
+ font-size: 28px;
+ color: black;
+ margin: 0 0 20px; 
+}
+
+input[type=text] {
+  color: black;
+  border: 2px solid #d9135a;
+  border-radius: 22px;
+  font-size: 13px;
+  background-color: white;
+  background-image: url('');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  
+}
+
+ 
