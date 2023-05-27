@@ -1,0 +1,9 @@
+footer > .container {
+  padding: 40px 15px;
+  max-width: 100%;
+}
+.Parfume a{
+    color: black; 
+  font-size: 2rem;
+  font-weight: 600;
+}
