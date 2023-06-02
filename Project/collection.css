@@ -1,0 +1,35 @@
+.parfumes {
+  display: flex;
+  column-gap: 20px;
+}
+.parfumes img {
+  border: 1px solid black;
+  max-width: 100%;
+}
+main {
+  padding-top: 40px !important;
+}
+.text-center > h2 {
+  color: #015e6b;
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.parfumes {
+  padding: 0 50px !important;
+}
+.col1,.col2,.col3,.col4{
+  text-align: center;
+}
+.f-p>p{
+font-size: 18px;
+font-weight: 700;
+}
+.s-p>p{
+font-size: 14px;
+}
+@media (max-width: 700px) {
+  .parfumes{
+    flex-wrap: wrap;
+  }
+}

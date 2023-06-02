@@ -1,5 +1,6 @@
 footer > .container {
   padding: 40px 15px;
+  padding-bottom: 0;
   padding-left: 30px;
   max-width: 100%;
 }

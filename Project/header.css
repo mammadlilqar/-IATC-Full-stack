@@ -10,19 +10,19 @@
   font-family: sans-serif;
   transition: 0.2s linear;
 }
-.first-div{
-
-  background-color: #F1F1F1;
+.first-div {
+  background-color: #f1f1f1;
   padding: 12px 15px;
   font-size: 14px;
   display: flex;
-  >p{
+
+  > p {
     margin-bottom: 0;
     font-size: 12px;
     margin-right: 6px;
     font-weight: 700;
   }
-  >span{
+  > span {
     font-size: 12px;
   }
 }
@@ -33,19 +33,15 @@ header {
   background: url("https://cdn.shopify.com/s/files/1/0618/3518/2257/files/banner.png?v=1665999384")
     no-repeat;
   background-size: cover;
-   
- background-position: center;
+
+  background-position: center;
 }
 .navigation {
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   z-index: 1;
-  animation-name: identifier ;
-  animation-duration: 6s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-  
+  background-color: white;
 }
 .navigation a {
   color: black;
@@ -89,7 +85,7 @@ header {
   justify-content: space-between;
   z-index: 1000;
 }
-.navigation > a {
+.p-logo a {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -131,15 +127,15 @@ ul {
 }
 .navbars ul li ul,
 .icons ul li ul {
-  background-color: white;
   position: absolute;
-
-  border: 1px solid black;
   background-color: white;
   z-index: 1;
   padding: 13px !important;
   font-size: 16px;
   display: none;
+  > li:hover {
+    background-color: rgb(219, 219, 219);
+  }
 }
 
 .navbars ul li:hover ul,
@@ -198,7 +194,7 @@ header .menu-bar {
   .menu-icon {
     display: block;
   }
-  .first-div{
+  .first-div {
     display: none;
   }
   .navbars {
@@ -234,12 +230,9 @@ header .menu-bar {
     display: block !important;
   }
 }
-@keyframes identifier {
-  from{
-    
-  }
-  to{
-    background-color: white;
-  }
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
- 

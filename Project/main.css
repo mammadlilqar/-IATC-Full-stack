@@ -420,3 +420,10 @@ padding-bottom: 50px;
   }
   
 }
+
+@media (max-width:380px) {
+main{
+  padding: 0  !important;
+}
+  
+}
