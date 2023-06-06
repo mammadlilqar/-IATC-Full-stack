@@ -43,12 +43,11 @@
   gap: 22px;
 }
 @media (max-width: 767px) {
-  .texts{
- 
+  .texts {
     flex-direction: column !important;
     gap: 0 !important;
-    >div>p{
-        margin: 0;
+    > div > p {
+      margin: 0;
     }
   }
 }
