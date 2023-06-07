@@ -43,6 +43,42 @@ for (let i=0; i<=n; i++){
 
 console.log(w);
 
+ 
+
+//6.Write program to find the count of each character: 'abacddbec' => {a: 2, b: 2, c: 1, d: 3, e: 1}
+let characters='abacddbec';
+let strToArr = [];
+for(let i=0; i<characters.length; i++) {
+    strToArr.push(characters[i]);
+}
+let empty={};
+for(let i=0; i<strToArr.length;i++) {
+    let num3=strToArr[i];
+if(empty[num3]){
+      empty[num3]++;
+}
+else{
+   empty[num3]=1;
+}
+
+}
+console.log(empty);
+
+
+//7.Write program that truncates string in a given length: 'Hello world', 5 => 'Hello...'
+let word='Hello world';
+let wordParts=[];
+let p=5;
+let newWord='';
+for(let i=0;i<word.length;i++){
+wordParts.push(word[i]);
+}
+for(let i=0;i<p;i++){
+newWord+=wordParts[i];
+}
+
+console.log(newWord+'...');
+
 
 //9.Create a program to calculate the sum of the elements in an array of numbers: [1, 2, 3, 4, 5] => 15
 let arr= [1, 2, 3, 4, 5];
@@ -110,7 +146,19 @@ console.log(secondMin);
 //15.Create a program to find the count of each element in an array of numbers: [1, 2, 3, 4, 5, 1, 2, 3, 4, 5] => {1: 2, 2: 2, 3: 2, 4: 2, 5: 2}
 
 
- 
+    var numbers = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
+    var counts = {};
+    for (var i = 0; i < numbers.length; i++) {
+        var num2 = numbers[i];
+        if (counts[num2]) {
+            counts[num2]++;
+        } else {
+            counts[num2] = 1;
+        }
+    }
+    
+
+     console.log(counts);
 
 
 
@@ -146,8 +194,3 @@ console.log(evenSum);
 
 
 
-
-
-
-
- 
