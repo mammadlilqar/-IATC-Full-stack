@@ -427,3 +427,44 @@ main{
 }
   
 }
+
+.blue-section{
+  background-image: url("https://cdn.shopify.com/s/files/1/0618/3518/2257/files/banner-2.png?v=1666078399");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 160px  5% 60px 5%;
+   margin-top: -110px;
+} 
+.new-section{
+  margin: 0;
+  padding: 0;
+}
+.new-section h3{
+  color: white;
+  font-size: 41px;
+}
+.new-section p{
+  color: white;
+  font-size: 14px;
+}
+.go-shop>a{
+ color: white !important;
+ font-size: 14px !important;
+ border: 1px solid  #d9135a;
+ background-color: #d9135a;
+ padding: 10px 30px !important;
+ border-radius: 23px;
+ text-decoration: none;
+ text-align: center !important;
+
+}
+.go-shop>a:hover{
+  background-color: white;
+  color: black !important;
+   text-decoration: none !important;
+}
+
+.top-p{
+  padding-bottom: 0px !important;
+}
