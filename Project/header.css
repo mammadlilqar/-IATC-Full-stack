@@ -41,7 +41,7 @@ header {
   background-size: cover;
   align-items: center;
   z-index: 1;
-  background-color: white;
+  background-color: white !important;
 }
 .navigation a {
   color: black;
@@ -79,7 +79,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  padding: 2rem 5%;
+  padding: 2rem 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -236,3 +236,4 @@ header .menu-bar {
   justify-content: center;
   gap: 10px;
 }
+
