@@ -1,66 +1,28 @@
-
-// 2. Write a JavaScript program to convert a string to an array of ASCII codes.
-// example: hello world
-// output: [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
-// example: Salam Azerbaycan
-// example: javascript is bomba
-console.log("--------------");
-
-console.log("Task No2");
-let word="javascript is bomba";
-let numberArr=[];
-for(let i=0; i<word.length; i++){
-    numberArr.push(word.charCodeAt(i));
+let word='aeaereaea';
+let array=[];
+let array2=[];
+for(let i=0; i<=word.length/2-1; i++){
+    array.push(word[i]);
 }
-console.log(numberArr);
-
-console.log("--------------");
-
-
-
-//3. Write a JavaScript program to convert a string to an array of characters.
-// example: hello world
-console.log("--------------");
-console.log("Task No3");
-
-let word3="hello world";
-let arr= [];
-for(let i=0; i<word3.length; i++){
-arr.push(word3[i]);
-
-}
-console.log(arr);
-
-console.log("--------------");
-
-
-// 4. Write a JavaScript program to drop the vowels from a string.
-// example: hello world
-// output: hll wrld
-
-console.log("--------------");
-console.log("Task No4");
-debugger
-
-let vowels=['a', 'u', 'e', 'o', 'i' ];
-let word4="hello world";
-let newWord=[];
-let array= [];
-for(let i=0; i<word4.length; i++){
-array.push(word4[i]);
-
-
-}
-
 console.log(array);
-
-for(let i=0; i<array.length; i++) {
-    for(let j=0; j<vowels.length; j++){
-        if(array[i]!=vowels[j]){
-             newWord.push(array[i]);
-        }
-    }
-
+for(let i=word.length-1; i>=word.length/2; i--){
+array2.push(word[i]);
 }
+console.log(array2);
+ let str1=' ';
+ let str2=' ';
 
-console.log("--------------");
+ for(let i=0; i<array.length; i++){
+    str1+=array[i];
+ }
+ for(let i=0; i<array2.length; i++){
+str2+=array2[i];
+ }
+ console.log(str1);
+ console.log(str2);
+ if(str1==str2){
+    console.log("word is true");
+ }
+ else{
+    console.log("word is not");
+ }
